@@ -241,6 +241,19 @@
 
             </div>
 
+            <form class="subscript" name="subscription" autocomplete="on" novalidate> 
+                
+                <label  for="subscription"> Підпишіться на розсилку
+                <input type="email" name="mail" placeholder="E-mail" id="subscription">
+                </label>
+                <button class="btn" type="submit"> Підписатися <svg class="icon-send" width="24" height="24">
+                  <use href="./images/icons.svg.svg#icon-send"></use>
+                </svg> </button>
+
+
+
+            </form>
+
 
         </div>
     </footer>
@@ -253,10 +266,56 @@
                 <use href="./images/icons.svg.svg#icon-vector" ></use>
             </svg>
         </button>
+        <form class="modal-form" name="lead_form" autocomplete="on" novalidate>
+            <span class="form-title">Залиште свої дані, ми вам передзвонимо</span>
+            <label class="data" for="name"> Ім'я </label>
+
+            <div class="input-box">
+            <input class="input-data" type="text" name="name" id="name" placeholder=" ">
+
+            <svg class="icon person" width="18" height="18">
+              <use href="./images/icons.svg.svg#icon-person"></use>
+            </svg></div>
+            
+            
+            <label class="data" for="tel"> Телефон </label>
+            <div class="input-box">
+            <input class="input-data" type="tel" name="tel" id="tel" placeholder=" ">
+
+            <svg class="icon handset" width="18" height="18">
+              <use href="./images/icons.svg.svg#icon-handset"></use>
+            </svg></div>
+            
+           
+            <label class="data" for="mail"> Пошта </label>
+             <div class="input-box">
+            <input class="input-data" type="email" name="mail" id="mail" placeholder=" ">
+
+            <svg class="icon mail-black" width="18" height="18">
+              <use href="./images/icons.svg.svg#icon-mail-black"></use>
+            </svg></div>
+            
+            <label class="data" for="comment"> Коментар </label>
+            <textarea name="comment" id="comment" rows="5" placeholder="Введіть текст"></textarea>
+
+          <div class="checkbox">
+            <input type="checkbox" name="checkbox" id="checkbox" value="check">
+            <label for="checkbox"> 
+            Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a> </label>
+         </div>
+            <button class="modal-btn" type="submit"> Відправити </button>
+                
+        </form>
+
+
+
     </div> </div>
 
 
      <script src="./js/modal.js"></script>
+
+
 </body>
+
 
 </html>
