@@ -1029,7 +1029,7 @@ textarea::placeholder{
     background-color: var(--effects-color);
     background-size: contain;
     border-color:var(--effects-color);
-    background-image: url('../images/icon-check.svg');
+    background-image: url(../images/icon-check.svg);
 }
 
 
