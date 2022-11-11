@@ -1005,22 +1005,30 @@ textarea::placeholder{
 }
 
 .checkbox input{
-    display: block;
+    -webkit-appearance:none ;
+    -moz-appearance:none;
+    position: absolute;
     appearance: none;
+    
+    
+}
+
+.icon-check{
+    display: inline-block;
     width: 16px;
     height: 15px;
     border: 2px solid var(--title-color);
     border-radius: 2px;
-    margin-right: 7px;
     cursor:url("../images/finger.png"), pointer;
+    margin-right: 7px;
 }
 
-.checkbox input:checked{
+.checkbox input:checked + .icon-check{
     background-color: var(--effects-color);
     background-size: contain;
     border-color:var(--effects-color);
     background-origin: border-box;
-    background-image:url(../images/icons.svg.svg#icon-check);
+    background-image:url("../images/icons.svg.svg#icon-check");
 }
 
 
