@@ -886,6 +886,9 @@ text-align: center;
     background-color: var(--body-color);
     padding: 8.5px;
     cursor:url("../images/finger.png"), pointer;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--transition-timing-function);
 }
 
 .modal .btn:hover, .modal .btn:focus{
