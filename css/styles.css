@@ -862,7 +862,7 @@ text-align: center;
     border-radius: 4px;
 
     transition-property: transform;
-    transition-duration: 250ms;
+    transition-duration: 2500ms;
     transition-timing-function: var(--transition-timing-function);
 
     padding: 40px;
@@ -929,12 +929,19 @@ text-align: center;
 .input-data{
     height: 40px;
     padding-left: 42px;
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--transition-timing-function);
 }
 
 .input-box .icon{
     position:absolute;
     top:11px;
     left:12px;
+     transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: var(--transition-timing-function);
+    
 }
 
 
@@ -979,6 +986,9 @@ textarea{
 padding: 12px 16px;
 resize:none;
 margin-bottom: 20px;
+ transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--transition-timing-function);
 }
 
 textarea::placeholder{
@@ -1022,6 +1032,7 @@ textarea::placeholder{
     border-radius: 2px;
     cursor:url("../images/finger.png"), pointer;
      margin-right: 7px;
+    
    
 }
 
@@ -1030,6 +1041,7 @@ textarea::placeholder{
     background-size: contain;
     border-color:var(--effects-color);
     background-image: url(../images/icon-check.svg);
+
 }
 
 
