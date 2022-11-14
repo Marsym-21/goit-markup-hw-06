@@ -551,8 +551,8 @@ margin-bottom: 20px;
 }
 
 .right-side{
-    margin-left: 94px;
-    margin-right: 93px;
+    margin-right: 94px;
+    margin-left: auto;
 }
 
 .icon-footer{
@@ -606,6 +606,7 @@ background-color:var(--effects-color);
 }
 
 .subscript input{
+    color: inherit;
     background-color: inherit;
     width:358px;
     height:50px;
@@ -855,24 +856,25 @@ text-align: center;
     left:50%;
 
     transform: translate(-50%, -50%) scale(1);
-    min-width:528px ;
+    min-width: 528px;
     min-height: 581px;
 
     background-color: var(--body-color);
     border-radius: 4px;
 
     transition-property: transform;
-    transition-duration: 2500ms;
+    transition-duration: 250ms;
     transition-timing-function: var(--transition-timing-function);
 
-    padding: 40px;
-    
+    padding: 40px;   
 }
+
 
 .backdrop.is-hidden .modal{
     transform: translate(-50%, -50%) scale(0.5);
-
+  
 }
+
 
 .modal .btn{
     color:var(--title-color);
@@ -1004,6 +1006,7 @@ textarea::placeholder{
 .checkbox{
     display: flex;
    flex-direction: row; 
+   justify-content: center;
    align-items: center;
    margin-bottom: 30px;
    
