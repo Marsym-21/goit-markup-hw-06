@@ -862,7 +862,7 @@ text-align: center;
     background-color: var(--body-color);
     border-radius: 4px;
 
-   
+   transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: var(--transition-timing-function);
 
